@@ -1,0 +1,9 @@
+/* GLOBAL */
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+section h2 {
+    font-size: 1.5rem;
+}

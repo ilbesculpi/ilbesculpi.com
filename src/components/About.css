@@ -1,0 +1,18 @@
+
+/* ABOUT */
+
+#about h1 {
+    color: #FF0077;
+    font-size: 1rem;
+}
+
+#about img {
+    max-width: 100%;
+}
+#about p {
+    color: #888888;
+    font-size: 0.85rem;
+}
+#about .card {
+    width: 100%;
+}
