@@ -1,9 +1,8 @@
-
 /* ABOUT */
 
 #about h1 {
     color: #FF0077;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 #about img {
@@ -11,8 +10,5 @@
 }
 #about p {
     color: #888888;
-    font-size: 0.85rem;
-}
-#about .card {
-    width: 100%;
+    font-size: 1rem;
 }

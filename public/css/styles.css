@@ -1,9 +1,19 @@
 /* GLOBAL */
+
 section {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 16px;
 }
 
 section h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+}
+
+@media (min-width: 768px) {
+    section {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        padding: 40px;
+    }
 }

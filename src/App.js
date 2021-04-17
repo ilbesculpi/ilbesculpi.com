@@ -6,9 +6,7 @@ const profile = {}
 
 function App() {
   return (
-    <div className="container">
-      <Porfolio profile={profile} />
-    </div>
+    <Porfolio profile={profile} />
   );
 }
 
