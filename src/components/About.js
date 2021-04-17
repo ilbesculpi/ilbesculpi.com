@@ -2,6 +2,9 @@ import './About.css';
 
 function About(props) {
 
+  const lines = props.bio.split('\n');
+  const textForBio = lines.map(line => <p>{ line.trim() }</p>);
+
   return(<section id="about">
     <div className="row text-center">
       <div className="col-lg-6 mx-auto">
@@ -11,10 +14,10 @@ function About(props) {
           <div className="card-body">
             <div className="row text-left">
               <div className="col-12 col-sm-4">
-                <img src="img/youravatar.png" className="d-block img-avatar rounded mx-auto" alt="avatar" />
+                <img src={ props.avatar } className="d-block img-avatar rounded mx-auto" alt="avatar" />
               </div>
               <div className="col-sm-8 mx-auto p-3">
-                <p>Lorem ipsum Exercitation culpa qui dolor consequat exercitation fugiat laborum ex ea eiusmod ad do aliqua occaecat nisi ad irure sunt id pariatur Duis laboris amet exercitation veniam labore consectetur ea id quis eiusmod.</p>
+                { textForBio }
               </div>
             </div>
           </div>

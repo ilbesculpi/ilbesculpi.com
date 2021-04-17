@@ -6,6 +6,7 @@ function Skills(props) {
       <div className="row">
         <div className="col-lg-10 mx-auto">
           <h2>Professional Skills</h2>
+          <p>A few things that I am good at!</p>
           <div className="row">
             <div className="col-6">
               <SkillItem name="Software Architect" value={80} />
