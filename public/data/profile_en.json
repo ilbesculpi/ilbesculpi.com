@@ -1,0 +1,57 @@
+{
+    "name": "Ilbert Esculpi",
+    "bio": "👋 Hi there\nI'm Ilbert and i'm full stack / mobile developer with more than 10 years experience.\nI am an enthusiastic and very motivated person. I have always been hard working and goal's focused with proven results.",
+    "avatar": "img/youravatar.png",
+    "personal": {
+    "name": "Ilbert Esculpi",
+    "email": "ilbert.esculpi@gmail.com",
+    "telephone": "+58 412.2982011",
+    "location": "Caracas, Venezuela"
+  },
+  "experience": [
+    {
+      "company": "preztamos.com",
+      "position": "Software Architect / Developer",
+      "date": {
+        "start": "Jan 2020",
+        "end": "current"
+      },
+      "location": "Panamá (remote)",
+      "tags": "serverless, angular, firebase, node",
+      "description": "Lorem ipsum"
+    },
+    {
+      "company": "AutoTrade PTY",
+      "position": "Senior Software Developer",
+      "date": {
+        "start": "Jun 2018",
+        "end": "Dec 2019"
+      },
+      "location": "Panamá (remote)",
+      "tags": "iOS, firebase, node",
+      "description": "Develop an iOS application for registering, evaluating and selling (auction-based) used cars in Panamá.\nDevelop the backend application for supporting API calls and business related services, using firebase services for database and storage."
+    },
+    {
+      "company": "Bandit. The most wanted talent",
+      "position": "Mobile Developer",
+      "date": {
+        "start": "Mar 2017",
+        "end": "Mar 2018"
+      },
+      "location": "Spain (remote)",
+      "tags": "iOS, android",
+      "description": "Responsible for the development and maintenance of mobile applications, particularly for android and iOS devices. My primary focus is to integrate with backend services, and provide solutions for common problems, such as displaying great on multiple device sizes, make the apps work well with poor network connectivity, etc."
+    },
+    {
+      "company": "Bee Concept Solutions",
+      "position": "Project Team Lead",
+      "date": {
+        "start": "Jul 2015",
+        "end": "Mar 2017"
+      },
+      "location": "Caracas, Venezuela",
+      "tags": "project management, team lead, coaching, software architect",
+      "description": "Working with other key members on projects to come up with the goals, objectives and achieve the milestones. Play a key role in improving company best practices and coding conventions. Tutoring 3-5 junior and senior developers to ensure software quality and keep projects on schedule."
+    }
+  ]
+}

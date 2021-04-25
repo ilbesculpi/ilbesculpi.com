@@ -7,7 +7,7 @@ function About(props) {
 
   return(<section id="about">
     <div className="row text-center">
-      <div className="col-lg-6 mx-auto">
+      <div className="col-lg-8 col-xl-6 mx-auto">
         <h1>About</h1>
         <h2>Let me introduce myself.</h2>
         <div className="card w-100">

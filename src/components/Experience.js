@@ -1,5 +1,21 @@
+import './Experience.css';
+import '@fortawesome/fontawesome-free';
 
 function Experience(props) {
+
+    const entries = props.experience.map((item, index) => {
+        return (<li key={index} className="timeline-item bg-white ml-3 p-4 shadow">
+            <div className="timeline-arrow"></div>
+            <h1>{ item.company }</h1>
+            <h2 className="mb-0">{ item.position }</h2>
+            <span className="small text-gray">
+                <i className="far fa fa-clock mr-1"></i>
+                { item.date.start } - { item.date.end }
+            </span>
+            <div className="text-muted"><small>{ item.tags }</small></div>
+            <p className="text-small mt-2 font-weight-light">{ item.description }</p>
+        </li>)
+    })
 
     return (
         <section id="experience">
@@ -11,24 +27,7 @@ function Experience(props) {
             <div className="row mt-4">
                 <div className="col-lg-8 mx-auto">
                     <ul className="timeline">
-                        <li className="timeline-item bg-white ml-3 p-4 shadow">
-                            <div className="timeline-arrow"></div>
-                            <h2 className="h5 mb-0">Title of section 1</h2>
-                            <span className="small text-gray"><i className="fa fa-clock-o mr-1"></i>21 March, 2019</span>
-                            <p className="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
-                        </li>
-                        <li className="timeline-item bg-white ml-3 p-4 shadow">
-                            <div className="timeline-arrow"></div>
-                            <h2 className="h5 mb-0">Title of section 1</h2>
-                            <span className="small text-gray"><i className="fa fa-clock-o mr-1"></i>21 March, 2019</span>
-                            <p className="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
-                        </li>
-                        <li className="timeline-item bg-white ml-3 p-4 shadow">
-                            <div className="timeline-arrow"></div>
-                            <h2 className="h5 mb-0">Title of section 1</h2>
-                            <span className="small text-gray"><i className="fa fa-clock-o mr-1"></i>21 March, 2019</span>
-                            <p className="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
-                        </li>
+                        { entries }
                     </ul>
                 </div>
             </div>
