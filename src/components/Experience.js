@@ -1,5 +1,6 @@
 import './Experience.css';
-import '@fortawesome/fontawesome-free';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faClock } from '@fortawesome/free-solid-svg-icons';
 
 function Experience(props) {
 
@@ -9,7 +10,7 @@ function Experience(props) {
             <h1>{ item.company }</h1>
             <h2 className="mb-0">{ item.position }</h2>
             <span className="small text-gray">
-                <i className="far fa fa-clock mr-1"></i>
+                <FontAwesomeIcon icon={['fas', 'clock']} />
                 { item.date.start } - { item.date.end }
             </span>
             <div className="text-muted"><small>{ item.tags }</small></div>
