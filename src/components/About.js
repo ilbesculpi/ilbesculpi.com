@@ -3,7 +3,7 @@ import './About.css';
 function About(props) {
 
   const lines = props.bio.split('\n');
-  const textForBio = lines.map(line => <p>{ line.trim() }</p>);
+  const textForBio = lines.map((line, index) => <p key={ 'bio-line-' + index }>{ line.trim() }</p>);
 
   return(<section id="about">
     <div className="row text-center">

@@ -1,6 +1,7 @@
 {
     "name": "Ilbert Esculpi",
     "bio": "👋 Hi there\nI'm Ilbert and i'm full stack / mobile developer with more than 10 years experience.\nI am an enthusiastic and very motivated person. I have always been hard working and goal's focused with proven results.",
+    "summary": "Ilbert is a full stack / mobile developer with more than 10 years experience.\nHe is an enthusiastic and very motivated person, has always been hard working and goal's focused with proven results.\nStarting as a web developer, he gained an extensive background in PHP frameworks (mainly cakephp and laravel),\nand got involved in solving a range of problems: from customer's requirements analysis, system design and web scalability; which leaves him well suited to develop scalable and maintainable applications.\nAfter that, he started developing mobile applications, both for iOS and android platforms, and even hybrid technologies, such as phonegap, ionic and react native.\nBeign exposed to the mobile development challenges, he learned not only the platforms itself, but also focused on developing adaptive, maintainable and testable applications, embracing clean architectures such as MVP and MVVM.\n Currently he works remotly as a senior software developer, developing and maintaining applications for the company's customers.\nHis experience and understanding of industry best practices offer a productive and contributory presence to both small and large team environments.",
     "avatar": "img/youravatar.png",
     "personal": {
     "name": "Ilbert Esculpi",
@@ -53,5 +54,47 @@
       "tags": "project management, team lead, coaching, software architect",
       "description": "Working with other key members on projects to come up with the goals, objectives and achieve the milestones. Play a key role in improving company best practices and coding conventions. Tutoring 3-5 junior and senior developers to ensure software quality and keep projects on schedule."
     }
-  ]
+  ],
+  "skills": {
+    "soft": [
+      {
+        "name": "Software Architect",
+        "value": 80
+      },
+      {
+        "name": "Team Leader",
+        "value": 70
+      },
+      {
+        "name": "Google Cloud Services",
+        "value": 70
+      },
+      {
+        "name": "Amazon Web Services (AWS)",
+        "value": 66
+      }
+    ],
+    "tech": [
+      {
+        "name": "iOS",
+        "value": 80
+      },
+      {
+        "name": "Android",
+        "value": 80
+      },
+      {
+        "name": "Node",
+        "value": 80
+      },
+      {
+        "name": "Angular",
+        "value": 78
+      },
+      {
+        "name": "React",
+        "value": 72
+      }
+    ]
+  }
 }

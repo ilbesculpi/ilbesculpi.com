@@ -3,11 +3,23 @@ import './Showcase.css';
 
 function Showcase(props) {
 
-    const items = Array(6).fill({});
-    const showcaseItems = items.map(item => {
+    const items = [
+        {
+            title: 'Agricolum',
+            tags: '',
+            image: '/img/projects/agricolum01.jpeg'
+        },
+        {
+            title: 'AutoTrade',
+            tags: '',
+            image: '/img/projects/autotrade01.jpeg'
+        }
+    ];
+
+    const showcaseItems = items.map((item, index) => {
         return (
-            <div className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                <ShowcaseItem item={item} />
+            <div key={ 'showcase-item-' + index } className="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                <ShowcaseItem title={ item.title } image={ item.image } />
             </div>
         );
     });

@@ -5,3 +5,9 @@
     background: #047BFE;
     color: #fff;
 }
+
+#portfolio figure > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}

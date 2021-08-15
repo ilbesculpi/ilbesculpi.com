@@ -1,11 +1,11 @@
 import './Experience.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClock } from '@fortawesome/free-solid-svg-icons';
+
 
 function Experience(props) {
 
     const entries = props.experience.map((item, index) => {
-        return (<li key={index} className="timeline-item bg-white ml-3 p-4 shadow">
+        return (<li key={ 'exp-item-' + index} className="timeline-item bg-white ml-3 p-4 shadow">
             <div className="timeline-arrow"></div>
             <h1>{ item.company }</h1>
             <h2 className="mb-0">{ item.position }</h2>

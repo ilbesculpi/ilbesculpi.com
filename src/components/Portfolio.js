@@ -35,11 +35,11 @@ function Portfolio(props) {
 
     return (
         <div className="container-fluid p-0">
-            <About key={'about'} name={ profile.name } bio={ profile.bio } avatar={ profile.avatar } />
-            <Info key={'info'} info={ profile.personal } />
-            <Skills key={'skills'} />
-            <Experience key={'experience'} experience={ profile.experience } />
-            <Showcase key={'showcase'} />
+            <About name={ profile.name } bio={ profile.bio } avatar={ profile.avatar } />
+            <Info info={ profile.personal } />
+            <Skills left={ profile.skills.soft } right={ profile.skills.tech } />
+            <Experience experience={ profile.experience } />
+            <Showcase />
         </div>
     );
 }
